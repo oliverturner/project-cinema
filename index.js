@@ -1,5 +1,5 @@
 const API_KEY = "898d3609";
-const API_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+const API_URL = `https://www.omdbapi.com/?apikey=${API_KEY}`;
 const ITEMS_PER_PAGE = 10;
 const MAX_PAGES = 19;
 
