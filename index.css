@@ -251,17 +251,15 @@ a {
 }
 
 .pagination {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 2em);
-  grid-gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-
-  /* background: hotpink; */
 }
 
 .pagination__link {
   width: 2em;
   height: 2em;
+  margin: 5px;
   line-height: 2em;
   text-align: center;
   border-radius: 2em;
@@ -379,6 +377,12 @@ a {
   border: 1px solid currentColor;
   background: #000;
   color: #fff;
+}
+
+.details__closebtn:focus::before,
+.details__closebtn:focus::before {
+  background: #fff;
+  color: #000;
 }
 
 .details__imdb {
